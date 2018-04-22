@@ -1,0 +1,33 @@
+{
+  "name": "pokerwars.io-starterbot-javascript",
+  "version": "1.0.0",
+  "description": "A starter bot written in javascript for the pokerwars.io platform. To play: pull this code, register on pokerwars.io, get your API token and play!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pokerwars/pokerwars.io-starterbot-javascript.git"
+  },
+  "keywords": [
+    "artificial-intelligence",
+    "bot",
+    "poker",
+    "gambling",
+    "games"
+  ],
+  "author": "pokerwars.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pokerwars/pokerwars.io-starterbot-javascript/issues"
+  },
+  "homepage": "https://github.com/pokerwars/pokerwars.io-starterbot-javascript#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  }
+}
