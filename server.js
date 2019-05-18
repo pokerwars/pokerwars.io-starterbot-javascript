@@ -1,12 +1,14 @@
+require('dotenv').config();
+
 const
-  username = 'insert here your bot username, find it at https://www.pokerwars.io/profile',
-  apiToken = 'insert here your api token, find it at https://www.pokerwars.io/token',
-  botEndpoint = 'insert here your bot ip address. i.e.: http://1.2.3.4:8090/',
+  username = process.env.USERNAME,
+  apiToken = process.env.API_TOKEN,
+  botEndpoint = process.env.BOT_ENDPOINT,
   notifications = false; // pokerwars can send you notifications to let you know how your bot is doing
 
 var express = require('express'),
   app = express(),
-  port = process.env.PORT || 8090,
+  port = process.env.PORT || 3000,
   request = require('request'),
   bodyParser = require('body-parser');
 

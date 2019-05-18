@@ -4,7 +4,8 @@
   "description": "A starter bot written in javascript for the pokerwars.io platform. To play: pull this code, register on pokerwars.io, get your API token and play!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,8 @@
     "nodemon": "^1.18.7"
   },
   "dependencies": {
-    "express": "^4.16.3",
-    "request": "^2.85.0"
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
   }
 }
