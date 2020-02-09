@@ -25,12 +25,12 @@
   },
   "homepage": "https://github.com/pokerwars/pokerwars.io-starterbot-javascript#readme",
   "devDependencies": {
-    "nodemon": "^2.0.1"
+    "nodemon": "^2.0.2"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "npm-check-updates": "^3.2.2",
+    "npm-check-updates": "^4.0.1",
     "request": "^2.88.0"
   }
 }
