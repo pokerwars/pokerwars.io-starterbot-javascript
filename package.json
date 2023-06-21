@@ -32,9 +32,9 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "npm-check-updates": "^4.0.2",
+    "npm-check-updates": "^15.0.0",
     "request": "^2.88.0",
-    "snyk": "^1.316.1"
+    "snyk": "^1.685.0"
   },
   "snyk": true
 }
